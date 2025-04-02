@@ -15,7 +15,7 @@ This project implements a reinforcement learning (RL) approach to optimize job s
 * **Gantt Chart Visualization:** Provides interactive Gantt chart visualization of scheduling results using Plotly for clear analysis.
 * **Modular Design:** The codebase is designed with modularity in mind, allowing for easy expansion and modification of agents, models, simulation, and training components.
 * **Configurable Parameters:** Offers extensive configuration options for hyperparameters and problem instances to adapt to various scheduling scenarios.
-'''
+```
 ## Project Structure
 manufacturing-rl-scheduler/
 ├── env/
@@ -32,7 +32,7 @@ manufacturing-rl-scheduler/
 ├── README.md                   # Project documentation (this file)
 └── requirements.txt            # Python dependencies list
 
-'''
+```
 
 ## Getting Started
 
