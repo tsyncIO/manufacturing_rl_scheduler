@@ -1,0 +1,4 @@
+torch>=1.10.0  # Or the specific version you are using
+numpy>=1.20.0  # Or the specific version you are using
+plotly>=5.0.0  # Or the specific version you are using
+anywidget #if you used anywidget for visualization
