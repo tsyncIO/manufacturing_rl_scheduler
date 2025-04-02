@@ -1,6 +1,25 @@
 # Manufacturing RL Scheduler
 
-This project implements a reinforcement learning (RL) approach to optimize job shop scheduling problems. It aims to improve manufacturing efficiency by intelligently allocating resources and minimizing makespan (the total time to complete all jobs). The project leverages deep Q-learning to train an agent that learns optimal scheduling policies.
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yourusername/manufacturing-rl-scheduler/blob/main/src/main.py)
+
+This project implements a reinforcement learning approach to optimize job shop scheduling problems, based on the methods described in *"Reinforcement Learning for Assignment Problem"* (Skomorokhov & Ovchinnikov, 2020). Our implementation extends the original research to manufacturing scheduling scenarios, focusing on minimizing makespan and operational penalties in dynamic environments.
+
+## Research Basis
+
+### Key Paper Contributions Implemented
+- **Q-learning with Neural Networks**: Adapted the authors' Q-learning approach using deep neural networks as function approximators
+- **Stochastic Environment Modeling**: Implemented dynamic job shop simulations with random machine breakdowns and priority changes
+- **Penalty Minimization Strategy**: Developed reward shaping techniques to optimize for low penalty schedules
+- **Greedy Baseline Comparison**: Included benchmark comparisons against traditional scheduling heuristics
+
+```bibtex
+@misc{skomorokhov2020reinforcement,
+  title={Reinforcement Learning for Assignment Problem},
+  author={Filipp Skomorokhov and George Ovchinnikov},
+  year={2020},
+  institution={Moscow Institute of Physics and Technology, Skolkovo Institute of Science and Technology}
+}
+```
 
 **Demo Video:**
 
